@@ -83,7 +83,7 @@ namespace Ticketing
                 //    break;
             }
 
-         mPrice -= discount;
+         mPrice -= tempDiscount;
 
          AmountDue = mPrice * quantity;
 
